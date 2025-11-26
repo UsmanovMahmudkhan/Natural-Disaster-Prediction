@@ -8,7 +8,7 @@
 
 ---
 
-## 1. Problem Description 🌍
+## 1. Problem Description 
 
 This section explains the real-world challenge addressed by the Natural Disaster Prediction System. It discusses the societal impact, limitations of traditional methods, and the motivation for AI-based solutions. It also clarifies the goals and scope of the repository and its key modules.
 
@@ -53,7 +53,7 @@ The scope also includes user interfaces for different stakeholders. These includ
 
 ---
 
-## 2. Tools and Frameworks Used 🛠️
+## 2. Tools and Frameworks Used 
 
 This section lists the technologies employed in the repository. It explains their roles and justifies their selection. It also ties each tool to specific files where relevant.
 
