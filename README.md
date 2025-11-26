@@ -43,34 +43,34 @@ pip install -r requirements.txt
 
 ## Usage
 
-### CLI
-```bash
-python src/main.py --data_path data/your_data.csv --target_column target
+Note: this repository currently contains a focused evaluation utility (see Project Structure). The original higher-level CLI/web/API entrypoints referenced below may not be present in this minimal snapshot.
+
+### Evaluating a trained model
+The included utility provides a simple evaluate_model function which prints common classification metrics and returns them as a dictionary.
+
+Example:
+
+```python
+from src.evaluation import evaluate_model
+
+# model: a fitted scikit-learn-like estimator
+# X_test, y_test: test features and labels
+metrics = evaluate_model(model, X_test, y_test)
+print(metrics)
 ```
 
-### Web Dashboard
-```bash
-streamlit run app.py
-```
+The function prints accuracy, precision, recall, F1 and a full classification report, and returns a dict with the metric values.
 
-### API Server
-```bash
-uvicorn api:app --reload
-```
+(If you expected CLI, Streamlit or API entrypoints, those are not present in this repository snapshot.)
 
 ## Project Structure
 
 ```
 ├── src/
-│   ├── data_processing.py   # Data preprocessing & feature engineering
-│   ├── model_training.py    # Model training & optimization
-│   ├── evaluation.py        # Model evaluation metrics
-│   ├── explainability.py    # SHAP explanations
-│   └── main.py             # CLI entry point
-├── app.py                   # Streamlit web app
-├── api.py                   # FastAPI server
-├── verify_pipeline.py       # Verification script
-└── requirements.txt         # Dependencies
+│   └── evaluation.py        # Model evaluation metrics (evaluate_model)
+└── README.md               # This file
 ```
 
-
+Notes:
+- This README has been updated to reflect the current repository contents. Other modules referenced in earlier documentation (e.g., main.py, model_training.py, explainability.py, app.py, api.py) are not present in this snapshot.
+- If you have a fuller project layout elsewhere, merge or add those files to restore the full workflow (training, explainability, web/API interfaces).
