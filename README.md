@@ -3,7 +3,8 @@
 **Student Name:** Usmonov Mahmudkhon  
 **Student ID:** 23013088  
 **Course:** AI and Big Data  
-**Professor:** Abolghasem Sadeghi-Niaraki
+**Professor:** Abolghasem Sadeghi-Niaraki   
+
 **Project Title:** Natural Disaster Prediction System  
 
 ---
