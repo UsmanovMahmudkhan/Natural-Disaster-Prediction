@@ -73,6 +73,4 @@ uvicorn api:app --reload
 └── requirements.txt         # Dependencies
 ```
 
-## License
 
-MIT
