@@ -1,11 +1,3 @@
-# Natural Disaster Prediction System – Technical Report
-
-**Student Name:** Usmonov Mahmudkhon  
-**Student ID:** 23013088  
-**Courses:** **AI and Big Data** and **Application of Advanced Programming Language**
-
-**Professors:** Abolghasem Sadeghi-Niaraki and Lilia Tightiz
-
 **Project Title:** Natural Disaster Prediction System  
 
 ---
